@@ -1,0 +1,84 @@
+body{
+    background-color: var(--dark-color);
+    font-family: var(--font-mt-sans);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+button,
+.button,
+#button{
+    background-color: var(--dark-color);
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 12px 24px;
+    color: var(--white);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+button:hover,
+#button:hover{
+    background-color: var(--light-color);
+}
+.login,
+.criar_conta{
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    color: var(--gray);
+    font-weight: bold;
+    text-decoration-color: var(--dark-color);
+}
+h1{
+    font-size: var(--big-text);
+    color: var(--dark-color);
+    font-weight: bold;
+}
+.login input[type="text"],
+.login input[type="password"], 
+.criar_conta input[type="text"],
+.criar_conta input[type="date"],
+.criar_conta input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+.login input[type="text"]:focus,
+.login input[type="password"]:focus,
+.criar_conta input[type="text"]:focus,
+.criar_conta input[type="date"]:focus,
+.criar_conta input[type="password"]:focus {
+    border: 1px solid var(--dark-color);
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+#criar_conta{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--dark-color);
+    justify-content: center;
+    text-decoration: none;
+    text-transform: none;
+}

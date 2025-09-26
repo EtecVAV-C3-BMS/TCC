@@ -1,0 +1,9 @@
+:root{
+    --font-mt-sans: "Montserrat", sans-serif;
+    --dark-color: #c35a5a;
+    --light-color: #f08d8f;
+    --gray: #d4d2d2;
+    --white: #fff;
+    --big-text: 32px;
+    --small-text: 24px;
+}

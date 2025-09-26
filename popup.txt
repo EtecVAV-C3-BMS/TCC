@@ -1,0 +1,20 @@
+<a class="nav-link collapsed" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal" >
+                    <div class="nav-link-icon"><i class="feather-gg"   data-feather="log-out"></i></div>
+                    Sair
+                </a>
+
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="logoutModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="h2 m-4">Deseja Sair da Plataforma?</div>
+
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="https://app.repertorioenem.com.br/logout" method="POST" class="nav-link collapsed mb-2" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
+                <input type="hidden" name="_token" value="sW2VSd0IourCcVZM3xIfhL5jujNAEPwzJa1u4AG0" autocomplete="off">                <div class="modal-footer" style="border-top: 0px;">
+                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Fechar</button><button class="btn btn-red" type="submit">Sair da plataforma</button></div>
+            </form>
+        </div>
+    </div>
+</div>
